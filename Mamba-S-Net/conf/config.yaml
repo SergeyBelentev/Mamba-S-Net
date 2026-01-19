@@ -48,7 +48,7 @@ optim:
   weight_decay: 0
 
 seed: 42
-save_every: 10
+save_every: 1
 
 augment:
   shift_same: false
@@ -62,4 +62,4 @@ augment:
   flip: true
 
 misc:
-  num_workers: 10
+  num_workers: 0
