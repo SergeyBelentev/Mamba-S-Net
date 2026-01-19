@@ -5,7 +5,7 @@ import torch as th
 from torch.nn import functional as F
 import tqdm
 
-from .utils import center_trim, DummyPoolExecutor
+from msnet.utils import center_trim, DummyPoolExecutor
 from accelerate import Accelerator
 
 accelerator = Accelerator()

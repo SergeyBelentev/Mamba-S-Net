@@ -1,7 +1,7 @@
 
 data:
-  wav:  
-  samplerate: 44100
+  wav: ./dataset
+  samplerate: 48000
   segment: 8
   shift: 1
   channels: 2

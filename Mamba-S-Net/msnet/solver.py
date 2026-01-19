@@ -1,12 +1,12 @@
 import torch
 from pathlib import Path
-from .utils import copy_state, EMA, new_sdr
-from .apply import apply_model
-from .ema import ModelEMA
-from . import augment
-from .loss import spec_rmse_loss
+from msnet.utils import copy_state, EMA, new_sdr
+from msnet.apply import apply_model
+from msnet.ema import ModelEMA
+from msnet import augment
+from msnet.loss import spec_rmse_loss
 from tqdm import tqdm
-from .log import logger
+from msnet.log import logger
 from accelerate import Accelerator
 from torch.cuda.amp import autocast
 

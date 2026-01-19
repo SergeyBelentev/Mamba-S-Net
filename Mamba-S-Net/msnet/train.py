@@ -2,14 +2,14 @@ import sys
 import os
 import torch
 from torch.utils.data import DataLoader
-from .wav import get_wav_datasets
-from .MSNet import MSNet
-from .solver import Solver
+from msnet.wav import get_wav_datasets
+from msnet.MSNet import MSNet
+from msnet.solver import Solver
 import argparse
 import yaml
 from ml_collections import ConfigDict
 from accelerate import Accelerator
-from .log import logger
+from msnet.log import logger
 
 accelerator = Accelerator()
 

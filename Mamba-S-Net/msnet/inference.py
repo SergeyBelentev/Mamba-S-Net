@@ -3,9 +3,9 @@ import time
 import numpy as np
 import torch
 import soundfile as sf
-from .MSNet import MSNet
-from .utils import load_model, convert_audio
-from .apply import apply_model
+from msnet.MSNet import MSNet
+from msnet.utils import load_model, convert_audio
+from msnet.apply import apply_model
 from ml_collections import ConfigDict
 import argparse
 import yaml
